@@ -14,6 +14,7 @@
         <a href="#accueil">Accueil</a>
         <a href="#tableau">Tableau</a>
         <a href="#taches">Tâches</a>
+        <a href="#journal">Journal</a>
       </div>
     </nav>
   </header>
@@ -25,6 +26,84 @@
         <h1>Organiser un binôme étudiant avec méthode</h1>
         <p class="hero-copy">Organisez vos séances, priorisez les tâches et suivez l'avancement du projet dans une interface unique.</p>
       </div>
+    </section>
+
+    <section id="tableau" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Vue synthétique</p>
+        <h2>Tableau de bord</h2>
+      </div>
+      <div class="metrics" aria-label="Indicateurs du projet">
+        <article class="metric-card">
+          <span class="metric-value" id="totalTasks">0</span>
+          <span class="metric-label">Tâches</span>
+        </article>
+        <article class="metric-card">
+          <span class="metric-value" id="doneTasks">0</span>
+          <span class="metric-label">Terminées</span>
+        </article>
+        <article class="metric-card">
+          <span class="metric-value" id="progressRate">0%</span>
+          <span class="metric-label">Progression</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="taches" class="section section-grid">
+      <div>
+        <div class="section-heading">
+          <p class="eyebrow">Planification</p>
+          <h2>Ajouter une tâche</h2>
+        </div>
+        <form class="task-form" id="taskForm">
+          <label>
+            Titre
+            <input id="taskTitle" name="taskTitle" type="text" minlength="3" required />
+          </label>
+          <label>
+            Responsable
+            <select id="taskOwner" name="taskOwner">
+              <option>Nadia</option>
+              <option>Youssef</option>
+              <option>Binôme</option>
+            </select>
+          </label>
+          <label>
+            Priorité
+            <select id="taskPriority" name="taskPriority">
+              <option value="Haute">Haute</option>
+              <option value="Moyenne" selected>Moyenne</option>
+              <option value="Basse">Basse</option>
+            </select>
+          </label>
+          <button type="submit">Ajouter</button>
+        </form>
+      </div>
+
+      <div>
+        <div class="section-heading">
+          <p class="eyebrow">Exécution</p>
+          <h2>Liste des tâches</h2>
+        </div>
+        <div class="filters" role="group" aria-label="Filtrer les tâches">
+          <button class="filter-button is-active" data-filter="all">Toutes</button>
+          <button class="filter-button" data-filter="open">Ouvertes</button>
+          <button class="filter-button" data-filter="done">Terminées</button>
+        </div>
+        <ul class="task-list" id="taskList"></ul>
+      </div>
+    </section>
+
+    <section id="journal" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Traçabilité</p>
+        <h2>Journal de collaboration</h2>
+      </div>
+      <ol class="timeline">
+        <li><strong>12/05/2026 :</strong> initialisation du dépôt, choix du sujet et répartition des tâches.</li>
+        <li><strong>14/05/2026 :</strong> intégration de l'interface et première fusion vers develop.</li>
+        <li><strong>16/05/2026 :</strong> résolution d'un conflit Git sur la page d'accueil.</li>
+      </ol>
     </section>
   </main>
 
