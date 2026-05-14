@@ -283,3 +283,8 @@ button:hover {
     grid-template-columns: 1fr;
   }
 }
+
+
+.task-item:hover {
+  background: #f8fbfd;
+}
