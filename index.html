@@ -12,6 +12,7 @@
       <a class="brand" href="#accueil">StudyBoard</a>
       <div class="nav-links">
         <a href="#accueil">Accueil</a>
+        <a href="#connexion">Connexion</a>
         <a href="#tableau">Tableau</a>
         <a href="#taches">Tâches</a>
         <a href="#journal">Journal</a>
@@ -24,8 +25,30 @@
       <div class="hero-content">
         <p class="eyebrow">Projet Git collaboratif</p>
         <h1>Organiser un binôme étudiant avec méthode</h1>
-        <p class="hero-copy">Suivez l'avancement du projet, les priorités et les responsabilités dans un tableau de bord clair.</p>
+        <p class="hero-copy">Connectez-vous puis suivez l'avancement du projet, les priorités et les responsabilités dans un tableau de bord clair.</p>
       </div>
+    </section>
+
+    <section id="connexion" class="section auth-section">
+      <div class="section-heading">
+        <p class="eyebrow">Accès binôme</p>
+        <h2>Connexion de démonstration</h2>
+      </div>
+      <form class="login-form" id="loginForm">
+        <label>
+          Utilisateur
+          <select id="loginUser" name="loginUser">
+            <option value="Nadia">Nadia</option>
+            <option value="Youssef">Youssef</option>
+          </select>
+        </label>
+        <label>
+          Mot de passe
+          <input id="loginPassword" name="loginPassword" type="password" value="demo2026" />
+        </label>
+        <button type="submit">Se connecter</button>
+        <p class="login-status" id="loginStatus">Session locale non connectée.</p>
+      </form>
     </section>
 
     <section id="tableau" class="section">

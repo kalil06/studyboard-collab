@@ -285,6 +285,23 @@ button:hover {
 }
 
 
-.task-item:hover {
-  background: #f8fbfd;
+.auth-section {
+  padding-top: 34px;
+}
+
+.login-form {
+  max-width: 520px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 22px;
+  display: grid;
+  gap: 16px;
+}
+
+.login-status {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 700;
 }
