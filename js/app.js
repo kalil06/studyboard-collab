@@ -29,6 +29,8 @@ const appState = {
   tasks: loadTasks()
 };
 
+const loginForm = document.querySelector("#loginForm");
+const loginStatus = document.querySelector("#loginStatus");
 const taskForm = document.querySelector("#taskForm");
 const taskList = document.querySelector("#taskList");
 const filterButtons = document.querySelectorAll(".filter-button");
@@ -141,3 +143,10 @@ function render() {
 }
 
 render();
+
+
+loginForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const selectedUser = new FormData(loginForm).get("loginUser");
+  loginStatus.textContent = `Session active : ${selectedUser}.`;
+});
