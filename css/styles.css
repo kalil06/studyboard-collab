@@ -305,3 +305,9 @@ button:hover {
   color: var(--muted);
   font-weight: 700;
 }
+
+
+.metric-card:hover {
+  transform: translateY(-2px);
+  transition: transform 160ms ease;
+}

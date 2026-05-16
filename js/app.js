@@ -150,3 +150,7 @@ loginForm.addEventListener("submit", (event) => {
   const selectedUser = new FormData(loginForm).get("loginUser");
   loginStatus.textContent = `Session active : ${selectedUser}.`;
 });
+
+
+// Export volontaire pour faciliter les tests manuels dans la console.
+window.studyBoardState = appState;
