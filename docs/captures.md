@@ -80,3 +80,8 @@ Description : Capture montrant l'étape « structure projet ». La capture doit 
 Description : Capture montrant l'étape « code source ». La capture doit inclure le contexte visuel complet, le titre de la fenêtre, la branche Git active lorsque c'est pertinent, et les commandes ou boutons utilisés.
 --------------------------------------------------
 
+
+--------------------------------------------------
+[CAPTURE D'ÉCRAN ICI]
+Description : Capture de la pull request ouverte par Youssef pour ajouter les captures et relire la documentation avant fusion.
+--------------------------------------------------
