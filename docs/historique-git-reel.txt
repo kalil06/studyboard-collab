@@ -1,0 +1,28 @@
+*   1d2bba2 (HEAD -> main, origin/main) release: fusionner develop dans main
+|\  
+| *   89dd91f (develop) merge: integrer la documentation etudiant 2
+| |\  
+| | * 7cecb18 (origin/feature-docs-student2) docs: ajouter une capture de pull request
+| |/  
+| * 3895802 (origin/develop) docs: enrichir le README professionnel
+| * 1e7e884 chore: supprimer le brouillon obsolete avec git rm
+| *   86843b3 merge: integrer feature-dashboard
+| |\  
+| | * 609abe0 (feature-dashboard) feat: exposer l'etat du tableau de bord pour validation
+| |/  
+| *   09f2ba6 merge: resoudre le conflit entre develop et feature-auth
+| |\  
+| | * 6f269b9 (feature-auth) feat: ajouter une connexion locale de demonstration
+| * | 8bba4d1 feat: preciser le message du tableau de bord
+| |/  
+| *   f6b206e merge: integrer feature-ui dans develop
+| |\  
+| | * 3ebb339 (feature-ui) style: ameliorer les etats visuels des taches
+| |/  
+| * cbad997 docs: documenter le workflow et les commandes Git
+| * aa808fe feat: implementer la gestion locale des taches
+| * 8d74c74 style: ajouter la mise en page responsive principale
+| * 08a37ef feat: ajouter la page d'accueil et les sections principales
+| * 053c98a chore: creer la structure du projet web
+|/  
+* 86728a9 chore: initialiser le depot et les metadonnees
