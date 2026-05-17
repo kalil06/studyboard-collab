@@ -59,22 +59,27 @@ git push origin develop
 | Med Khalil Milliti | Interface, expérience utilisateur, structure HTML/CSS, page de connexion |
 | Amen Alah ELHaj | JavaScript, logique des tâches, documentation Git, rapport technique |
 
-## Captures prévues
+## Captures intégrées
 
---------------------------------------------------
-[CAPTURE D'ÉCRAN ICI]
-Description : Page GitHub du repository `studyboard-collab`, affichant le nom du dépôt, la branche principale et le bouton Code.
---------------------------------------------------
+Les captures finales sont disponibles dans le dossier `screenshots/` et intégrées dans le rapport Word/PDF.
 
---------------------------------------------------
-[CAPTURE D'ÉCRAN ICI]
-Description : Terminal montrant `git status` après modification de fichiers dans la branche `develop`.
---------------------------------------------------
-
---------------------------------------------------
-[CAPTURE D'ÉCRAN ICI]
-Description : Interface de l'application avec tableau de bord, formulaire d'ajout de tâche et liste filtrable.
---------------------------------------------------
+| Fichier | Contenu |
+| --- | --- |
+| `screenshot_01_repository_creation.png` | Création du dépôt GitHub |
+| `screenshot_02_repository_main.png` | Page principale du repository GitHub |
+| `screenshot_03_git_status.png` | Commande `git status` |
+| `screenshot_04_git_add.png` | Commande `git add` |
+| `screenshot_05_git_commit.png` | Commande `git commit` |
+| `screenshot_06_git_push.png` | Commande `git push` |
+| `screenshot_07_git_pull.png` | Commande `git pull` |
+| `screenshot_08_git_branch.png` | Commande `git branch` |
+| `screenshot_09_git_merge.png` | Résultat d'un merge |
+| `screenshot_10_git_conflict.png` | Conflit Git réel |
+| `screenshot_11_conflict_resolution.png` | Résolution du conflit |
+| `screenshot_12_git_history.png` | Historique des commits |
+| `screenshot_13_pull_request.png` | Pull request GitHub |
+| `screenshot_14_project_structure.png` | Structure du projet |
+| `screenshot_15_source_code.png` | Code source JavaScript |
 
 ## Licence
 
