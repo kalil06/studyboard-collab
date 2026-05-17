@@ -1,1 +1,1 @@
-﻿Ligne commune du document de conflit.
+﻿Version modifiee dans la branche capture-conflict-branch.
