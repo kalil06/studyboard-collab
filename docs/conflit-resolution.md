@@ -25,4 +25,4 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 ## Résolution retenue
 
-Le binôme a fusionné les deux intentions : conserver l'idée de connexion ajoutée par Nadia et conserver la notion de suivi d'avancement précisée par Youssef.
+Le binôme a fusionné les deux intentions : conserver l'idée de connexion ajoutée par Med Khalil Milliti et conserver la notion de suivi d'avancement précisée par Amen Alah ELHaj.

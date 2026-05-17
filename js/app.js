@@ -4,14 +4,14 @@ const initialTasks = [
   {
     id: crypto.randomUUID(),
     title: "Préparer la structure du rapport",
-    owner: "Nadia",
+    owner: "Med Khalil",
     priority: "Haute",
     done: true
   },
   {
     id: crypto.randomUUID(),
     title: "Documenter les commandes Git",
-    owner: "Youssef",
+    owner: "Amen Alah",
     priority: "Haute",
     done: false
   },
@@ -38,15 +38,27 @@ const filterButtons = document.querySelectorAll(".filter-button");
 function loadTasks() {
   const saved = localStorage.getItem(STORAGE_KEY);
   if (!saved) {
-    return initialTasks;
+    return initialTasks.map(normalizeTaskOwner);
   }
 
   try {
-    return JSON.parse(saved);
+    return JSON.parse(saved).map(normalizeTaskOwner);
   } catch (error) {
     console.warn("Données locales invalides, réinitialisation.", error);
-    return initialTasks;
+    return initialTasks.map(normalizeTaskOwner);
   }
+}
+
+function normalizeTaskOwner(task) {
+  const owners = {
+    Nadia: "Med Khalil",
+    Youssef: "Amen Alah"
+  };
+
+  return {
+    ...task,
+    owner: owners[task.owner] ?? task.owner
+  };
 }
 
 function saveTasks() {

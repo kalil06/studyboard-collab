@@ -27,13 +27,13 @@ $ C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtens
 ---
 
 ```text
-$ C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd\git.exe config user.name Nadia Ben Salem
+$ C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd\git.exe config user.name Med Khalil Milliti
 ```
 
 ---
 
 ```text
-$ C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd\git.exe config user.email nadia.bensalem@example.edu
+$ C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd\git.exe config user.email med.khalil.milliti@ihec-carthage.tn
 ```
 
 ---
@@ -438,13 +438,13 @@ Switched to a new branch 'develop'
 ---
 
 ```text
-$ C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd\git.exe config user.name Youssef Mansouri
+$ C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd\git.exe config user.name Amen Alah ELHaj
 ```
 
 ---
 
 ```text
-$ C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd\git.exe config user.email youssef.mansouri@example.edu
+$ C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd\git.exe config user.email amen.alah.elhaj@ihec-carthage.tn
 ```
 
 ---

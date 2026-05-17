@@ -83,5 +83,5 @@ Description : Capture montrant l'étape « code source ». La capture doit inclu
 
 --------------------------------------------------
 [CAPTURE D'ÉCRAN ICI]
-Description : Capture de la pull request ouverte par Youssef pour ajouter les captures et relire la documentation avant fusion.
+Description : Capture de la pull request ouverte par Amen Alah ELHaj pour ajouter les captures et relire la documentation avant fusion.
 --------------------------------------------------

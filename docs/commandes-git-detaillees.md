@@ -37,7 +37,7 @@ git clone <url>
 **Exemple du projet :**
 
 ```bash
-git clone https://github.com/nadia-youssef/studyboard-collab.git
+git clone https://github.com/med-khalil-milliti/studyboard-collab.git
 ```
 
 **Résultat attendu :** Cloning into 'studyboard-collab'...

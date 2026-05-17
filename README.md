@@ -2,6 +2,8 @@
 
 StudyBoard Collab est une mini application web universitaire conçue pour simuler un projet collaboratif complet entre deux étudiants. L'application permet à un binôme de centraliser les tâches, suivre l'avancement, documenter les responsabilités et conserver une trace claire des étapes du travail.
 
+Projet réalisé par Med Khalil Milliti et Amen Alah ELHaj, étudiants à l'IHEC Carthage, classe 1LIG6.
+
 ## Fonctionnalités
 
 - Tableau de bord avec nombre de tâches, tâches terminées et taux de progression.
@@ -25,7 +27,7 @@ StudyBoard Collab est une mini application web universitaire conçue pour simule
 ## Installation
 
 ```bash
-git clone https://github.com/nadia-youssef/studyboard-collab.git
+git clone https://github.com/med-khalil-milliti/studyboard-collab.git
 cd studyboard-collab
 ```
 
@@ -34,7 +36,7 @@ Pour ouvrir l'application, lancer directement `index.html` dans un navigateur mo
 ## Utilisation
 
 1. Ouvrir `index.html`.
-2. Se connecter avec Nadia ou Youssef dans la section Connexion.
+2. Se connecter avec Med Khalil ou Amen Alah dans la section Connexion.
 3. Ajouter une tâche avec un responsable et une priorité.
 4. Filtrer les tâches selon leur état.
 5. Observer la mise à jour automatique des indicateurs du tableau de bord.
@@ -54,8 +56,8 @@ git push origin develop
 
 | Étudiant | Responsabilités principales |
 | --- | --- |
-| Nadia Ben Salem | Interface, expérience utilisateur, structure HTML/CSS, page de connexion |
-| Youssef Mansouri | JavaScript, logique des tâches, documentation Git, rapport technique |
+| Med Khalil Milliti | Interface, expérience utilisateur, structure HTML/CSS, page de connexion |
+| Amen Alah ELHaj | JavaScript, logique des tâches, documentation Git, rapport technique |
 
 ## Captures prévues
 
